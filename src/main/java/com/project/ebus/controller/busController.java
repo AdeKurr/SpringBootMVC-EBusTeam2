@@ -16,9 +16,9 @@ public class busController {
         return "about";
     }
 
-    @GetMapping("/blog")
+    @GetMapping("/rekan")
     public String cobaGetPagenya3() {
-        return "blog";
+        return "rekan";
     }
 
     @GetMapping("/contact")
